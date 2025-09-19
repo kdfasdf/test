@@ -126,10 +126,6 @@
     │  │  └─com
     │  │      ├─codeit
     │  │      │  └─monew
-    │  │      │      ├─activity_management
-    │  │      │      │  ├─controller
-    │  │      │      │  ├─response_dto
-    │  │      │      │  └─service
     │  │      │      ├─article
     │  │      │      │  ├─backUp
     │  │      │      │  │  ├─aws
@@ -146,37 +142,6 @@
     │  │      │      │  ├─response_dto
     │  │      │      │  ├─rss
     │  │      │      │  └─service
-    │  │      │      ├─base
-    │  │      │      │  └─entity
-    │  │      │      ├─comment
-    │  │      │      │  ├─controller
-    │  │      │      │  ├─entity
-    │  │      │      │  ├─mapper
-    │  │      │      │  ├─repository
-    │  │      │      │  │  └─likeRepository
-    │  │      │      │  ├─request
-    │  │      │      │  ├─response_dto
-    │  │      │      │  └─service
-    │  │      │      ├─exception
-    │  │      │      │  ├─article
-    │  │      │      │  ├─comment
-    │  │      │      │  ├─example
-    │  │      │      │  ├─global
-    │  │      │      │  ├─interest
-    │  │      │      │  ├─notification
-    │  │      │      │  └─subscription
-    │  │      │      ├─global
-    │  │      │      │  ├─aop
-    │  │      │      │  ├─config
-    │  │      │      │  └─util
-    │  │      │      ├─interest
-    │  │      │      │  ├─controller
-    │  │      │      │  ├─entity
-    │  │      │      │  ├─mapper
-    │  │      │      │  ├─repository
-    │  │      │      │  ├─request
-    │  │      │      │  ├─response_dto
-    │  │      │      │  └─service
     │  │      │      ├─notification
     │  │      │      │  ├─batch
     │  │      │      │  ├─controller
@@ -186,22 +151,26 @@
     │  │      │      │  ├─repository
     │  │      │      │  ├─response_dto
     │  │      │      │  └─service
+    │  │      │      ├─user
+    │  │      │      ├─comment
+    │  │      │      ├─interest
+    │  │      │      ├─activity_management
     │  │      │      ├─subscriptions
-    │  │      │      │  ├─dto
-    │  │      │      │  ├─entity
-    │  │      │      │  ├─mapper
-    │  │      │      │  ├─repository
-    │  │      │      │  └─service
-    │  │      │      └─user
-    │  │      │          ├─batch
-    │  │      │          ├─controller
-    │  │      │          ├─entity
-    │  │      │          ├─exception
-    │  │      │          ├─mapper
-    │  │      │          ├─repository
-    │  │      │          ├─request
-    │  │      │          ├─response_dto
-    │  │      │          └─service
+    │  │      │      ├─base
+    │  │      │      │  └─entity
+    │  │      │      ├─exception
+    │  │      │      │  ├─article
+    │  │      │      │  ├─comment
+    │  │      │      │  ├─example
+    │  │      │      │  ├─global
+    │  │      │      │  ├─interest
+    │  │      │      │  ├─notification
+    │  │      │      │  └─subscription
+    │  │      │      └─global
+    │  |      |         ├─aop
+    │  │      │         ├─config
+    │  │      │         └─util
+    │  │      │       
     │  │      └─jdh
     │  │          └─sample
     │  │              └─config
@@ -233,4 +202,4 @@
 ```
 
 ### 배포 주소
-https://sb04-hrbank-team1-production.up.railway.app/#/dashboard
+http://3.38.246.237/
